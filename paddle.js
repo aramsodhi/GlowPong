@@ -28,7 +28,7 @@ class Paddle {
   
   render(ctx) {
     ctx.fillStyle = this.color;
-    ctx.shadowBlur = 25;
+    ctx.shadowBlur = 10;
     ctx.shadowColor = this.color;
     ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
     ctx.shadowBlur = 0;
